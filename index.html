@@ -1,2 +1,229 @@
-<h1>jejnejdne</h1>
-<p>ededededvjnrjnj</p>
+<!DOCTYPE html>
+
+<head>
+    <link href="https://necolas.github.io/normalize.css/5.0.0/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900|Lora" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style>
+        body {
+            background-color: whitesmoke;
+        }
+        
+        h1 {
+            font-size: 300%;
+            font-family: 'Lora', serif;
+            margin-left: 8%;
+        }
+        
+        h2 {
+            color: #900020;
+            font-size: 150%;
+            font-weight: 400;
+        }
+        
+        h3 {
+            color: black;
+            font-weight: 400;
+        }
+        
+        h4 {
+            font-weight: 400;
+        }
+        
+        ul {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            list-style: none;
+            margin: 0 auto 0 8%;
+            padding: 0;
+            list-style-position: outside;
+            line-height: 1.5;
+        }
+        
+        ol {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            color: #262626;
+            line-height: 1.5;
+            padding-left: 3%;
+            list-style-position: outside;
+        }
+        
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        
+        p {
+            word-spacing: 0px;
+            font-weight: 300;
+            color: #262626;
+            line-height: 1.5;
+        }
+        
+        .boldintext {
+            font-weight: 900;
+        }
+        
+        .colourintext {
+            color: #900020;
+        }
+        
+        article {
+            max-width: 500px;
+            margin: 0 auto 0 8%;
+            font-family: 'Lato', sans-serif;
+        }
+        
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 200%;
+            }
+        }
+        
+        a.back-to-top {
+            display: none;
+            width: 60px;
+            height: 60px;
+            text-indent: -9999px;
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            background: rgba(144,0,32,0.2) url("arrow-up.svg") no-repeat center 43%;
+            border-radius: 30px;
+        } 
+    </style>
+</head>
+
+<body>
+
+    <h1>Uber Related</h1>
+    <ul>
+        <li style="color: #900020">Business</li>
+        <li><a href="#business1">Business Model</a></li>
+        <li><a href="#business2">Uber's future</a></li>
+        &nbsp;
+        <li style="color: #900020">Operational Concepts</li>
+        <li><a href="#operations2">Rider's Perspective</a></li>
+    </ul>
+    <article>
+        <h2>Business</h2>
+        <h3 id="business1">Business Model</h3>
+        <p>
+            Uber is a digital disruption of the taxi, and to a larger extent the transportation industry which have historically struggled to provide high standard services at low-cost.
+
+            <p>
+                7-step business model:
+
+                <ol>
+                    <li>Find drivers who have cars wanting to earn extra money</li>
+                    <li>Orchestrate them centrally to offer a high scaled and differentiated transport platform</li>
+                    <li>Allow people wanting to make journeys to book via mobile app</li>
+                    <li>2-way review to ensure good service and behaviour</li>
+                    <li>Uber takes 20-30% cut off all bookings</li>
+                    <li>Leverage data to minimise wait times</li>
+                    <li>Keep improving efficiency</li>
+                </ol>
+                <p>
+                    Uber's platform hosts a network of drivers who have cars, and the network's value correlates to the number of points in it. Every additional driver in the network means less waiting time for riders, and adds marginal competitive advantage.
+                </p>
+                <p>
+                    Hence, drivers are a strategic resource for Uber, and having drivers in the network is a strategic barrier discouraging new entrants. Drivers choose to work for a winning platform as it pays more, and Uber's core strength is not its app nor its brand, but the ability to provide a winning platform by giving drivers the best available deal-- through a better software and network.
+                </p>
+                <p>
+                    Imagine this:
+                    <br>Market share and drivers are split 50:50 between Uber and Grab. Both companies set the same prices and commission taken, and all else are equal. If Uber has a marginally better software (eg. drivers wait times are slightly lower), drivers would earn more money from Uber's platform, and switch to it. More drivers in the network=less waiting times for riders, and they would use Uber's app more, leading to a reinforcing cycle.
+                </p>
+                <p>
+                    <span class="boldintext colourintext">The current strategy</span> is to use the large cash balance to outperform and run down competition. Driving out competition is essential as most people don't check more than one taxi app regularly.
+                </p>
+                <p>
+                    Once Uber achieves local domination, they can turn their losses into profits. As a quasi-monopoly, they can set pricing power with regards to core costs (drivers) and riders, although this prerogative is not unlimited given the low switch costs.
+                </p>
+                <p>
+                    A typical current scenario is such:
+                    <br>Uber offers rides at prices less than regulated taxis, whilst drivers earn slightly more. In medium term, when Uber has a large market share, and its competitors broken, prices can be adjusted to be in line with regulated taxis, and drivers can be paid less.
+                </p>
+                <p>
+                    <span class="boldintext colourintext" ; id="business2">However, Uber's future</span> is threatened by driverless cars. When SDC technology matures, it is pointless to keep drivers (a core cost) in its operations. But a mainstream SDC environment also takes away Uber's shield that is the drivers, which were deterring entrants. Remember that having more drivers in the network leads to less waiting times for both drivers and riders through the reinforcing cycle effect. A future competitor could raise lots of money, and buys enough SDC to match or beat Uber's waiting time. In a case where the competitor couldn't raise enough money, Uber could use its remaining cash balance at that time to drive off the competitor, but it will not work. Why?
+                </p>
+                <p>
+                    Picture this future scenario:
+                    <br>Company ABC raises £1 billion and buys a fleet of SDC. Uber tries to drive away ABC through a price competition, etc. What would ABC do?
+                </p>
+                <p>
+                    ABC will stay because the £1 billion has already been invested into these SDCs and is a sunk cost. Either way, they've already established themselves as a player in the market, and will not go anywhere.
+                </p>
+                <p>
+                    The same scenario could be repeated on a smaller scale as well. One person could buy an SDC, create an app, and provide such service to his family, friends, and immediate network. Again, he's not going anywhere-- he's already invested into the SDC. In both scenarios, when ABC and multiple one-person Uber companies compete with Uber, Uber's dominance will end.
+                </p>
+                <p>
+                    Despite such, Uber can still stay ahead, even if SDC becomes a common sight. As we've established, a taxi hailing app or the brand is nothing. An integrated platform and network, however, is priceless. If Uber can continue to improve its technology, and pair a leading platform with a marginally better SDC, generating again less wait times, they gain a competitive advantage. Uber knows this, which is why they are bringing in robotics staff from Carnegie Mellon.
+                </p>
+    </article>
+
+    <article>
+        <h2>Operational Concepts</h2>
+        <h3 id="operations1">Rider's Perspective</h3>
+        <p>
+            From a rider's POV, Uber claims to be cheaper, safer, and reliable relative to traditional taxis. When riders needs a ride, they request a driver through the mobile app.
+        </p>
+
+        <p>
+            When a rider opens the app and doesn't see any available cars, then that is a "Zero" for Uber.
+        </p>
+
+        <p>
+            Zeroes are due to:
+
+            <ol>
+                <li>Dead-time for the city, eg. 4am or 5am-- some drivers find it not profitable to operate because of low demand</li>
+                <li>All cars are busy, eg. rush-hour or late nights during weekends</li>
+                <li>Coincidence</li>
+            </ol>
+        </p>
+        <p> Uber gives promototions to:
+            <ol>
+                <li>Entice additional app usage</li>
+                <li>Acquire new users</li>
+            </ol>
+        </p>
+
+        <p>
+            Promotion success metrics depends on the goal. For example:
+            <ol>
+                <li>If the goal is to bring in more revenue, and more people use the app as a result of the promotion, then it could be considered a success.</li>
+                <li>If the goal is to acquire new unique users, then extra revenue generated is not a true measurement of the promotion's success.</li>
+                <li>If the goal is to bring in more revenue, new users sign up but are not using the app, it is also not a true measurement of the promotion's success.
+            </ol>
+        </p>
+        <p>Another example:
+            <ol>
+                <li>Goal is +revenue. Uber sends out invite codes to get existing users' network to install the app.</li>
+                <li>New users sign up, at this stage, the promotion is not a success as there isn't additional revenue yet.</li>
+                <li>New users use the app, this stage is a success as there is new revenue.</li>
+            </ol>
+        </p>
+
+
+    </article>
+    <script type="text/javascript"; >
+        $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 700) {
+                $('a.back-to-top').fadeIn('slow');
+            } else {
+                $('a.back-to-top').fadeOut('slow');
+            }
+        });
+
+        $('a.back-to-top').click(function () {
+            $('html, body').animate({
+                scrollTop: 0 //Value here determines vertical end point when scrolling back to top. (0-top of page; 400-400px from top; and so on)
+            }, 300); //Value here determines back to top scrolling speed. (0-instant; 1000-slow; and so on)
+            return false;
+        }); 
+    </script>
+</body>
