@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <link href="https://necolas.github.io/normalize.css/5.0.0/normalize.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900|Lora" rel="stylesheet">
@@ -34,7 +35,7 @@
             font-family: 'Lato', sans-serif;
             font-weight: 300;
             list-style: none;
-            margin: 0 auto 0 8%;
+            margin: 0 auto 0 10%;
             padding: 0;
             list-style-position: outside;
             line-height: 1.5;
@@ -102,9 +103,9 @@
             position: fixed;
             right: 20px;
             bottom: 20px;
-            background: rgba(144,0,32,0.2) url("arrow-up.svg") no-repeat center 43%;
+            background: rgba(144, 0, 32, 0.2) url("arrow-up.svg") no-repeat center 43%;
             border-radius: 30px;
-        } 
+        }
     </style>
 </head>
 
@@ -220,9 +221,8 @@
 
 
     </article>
-    <script type="text/javascript"; >
+    <script type="text/javascript" ;>
         $('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
-
         $(window).scroll(function () {
             if ($(window).scrollTop() > 700) {
                 $('a.back-to-top').fadeIn('slow');
@@ -230,12 +230,11 @@
                 $('a.back-to-top').fadeOut('slow');
             }
         });
-
         $('a.back-to-top').click(function () {
             $('html, body').animate({
                 scrollTop: 0 //Value here determines vertical end point when scrolling back to top. (0-top of page; 400-400px from top; and so on)
             }, 300); //Value here determines back to top scrolling speed. (0-instant; 1000-slow; and so on)
             return false;
-        }); 
+        });
     </script>
 </body>
